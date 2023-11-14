@@ -10,11 +10,11 @@
   <div>
     <div>
       <h2>data de nascimento</h2>
-      <input id="day" type="text" placeholder="01">
-      <input id="month" type="text" placeholder="01">
-      <input id="year" type="text" placeholder="2000">
+      <input id="day" type="text" placeholder="01" value="1">
+      <input id="month" type="text" placeholder="01" value="1">
+      <input id="year" type="text" placeholder="2000" value="2000">
     </div>
-    <button>Encontrar signos</button>
+    <button onclick="main()">Encontrar signos</button>
   </div>
   <div>
     <h2>zodíaco</h2>
@@ -30,11 +30,15 @@
     <p>elemento: <span id="chi-eleme"></span></p>
   </div>
   <div>
-    <h2>Maia</h2>
+    <h2>maia</h2>
     <p>Signo: <span id="may-sign"></span></p>
   </div>
   <div>
-    <h2>Cigano</h2>
+    <h2>xamã</h2>
+    <p>Signo: <span id="sha-sign"></span></p>
+  </div>
+  <div>
+    <h2>cigano</h2>
     <p>signo: <span id="gyp-sign"></span></p>
     <p>perfume: <span id="gyp-frag"></span></p>
     <p>metal: <span id="gyp-metal"></span></p>
@@ -43,4 +47,5 @@
     <p>cor: <span id="gyp-color"></span></p>
   </div>
 </body>
+<script src="./main.js"></script>
 </html>
