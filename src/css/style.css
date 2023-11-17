@@ -118,6 +118,7 @@ p {
 span {
   padding: 0px 10px;
   width: 50%;
+  min-width: 150px;  width: 50%;
   min-width: 150px;
   color: transparent;
   background: -webkit-linear-gradient(rgb(119, 224, 248), rgb(242, 25, 253));
