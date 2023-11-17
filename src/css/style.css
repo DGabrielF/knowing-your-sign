@@ -1,0 +1,159 @@
+@import url("./reset.css");
+header {
+  background-size: cover;
+  background-image: linear-gradient(rgba(49,168,221,0.2), rgba(0,0,0,0.2), rgba(49,168,221,0.2)), url("../images/campo-de-estrelas-de-alta-definicao-espaco-colorido-do-ceu-noturno-nebulosa-e-galaxias-no-espaco-fundo-do-conceito-de-astronomia_232070-8070.avif");
+}
+h1 {
+  padding: 20px 10px;
+  font-size: xx-large;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 5px;
+  color: transparent;
+  background: -webkit-linear-gradient(rgb(119, 224, 248), rgb(242, 25, 253),rgb(119, 224, 248), rgb(242, 25, 253));
+  -webkit-background-clip: text;
+  text-shadow: 2px 2px 10px #fff;
+}
+.input-base {
+  padding: 20px 0;
+  background-size: cover;
+  background-image: linear-gradient(rgba(49,168,221,0.2), rgba(0,0,0,0.2), rgba(49,168,221,0.2)), url("../images/campo-de-estrelas-de-alta-definicao-espaco-colorido-do-ceu-noturno-nebulosa-e-galaxias-no-espaco-fundo-do-conceito-de-astronomia_232070-8070.avif");
+}
+.input-area {
+  margin: 0 auto;
+  padding: 0 10px 5px 10px;
+  width: 95%;
+  max-width: 600px;
+  text-align: center;
+  background-color: rgba(0, 0, 0,.2);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(119, 224, 248,.2);
+  border-radius: 20px;
+}
+h2 {
+  padding: 15px 7px;
+  font-size: x-large;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: transparent;
+  background: -webkit-linear-gradient(rgb(119, 224, 248), rgb(242, 25, 253));
+  -webkit-background-clip: text;
+  text-shadow: 2px 2px 15px #fff;
+}
+input {
+  width: 20%;
+  min-width: 50px;
+  max-width: 100px;
+  margin: 20px 10px;
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(119, 224, 248,.2);
+  border-radius: 20px;
+}
+button {
+  margin: 20px 10px;
+  padding: 4px 10px;
+  font-size: larger;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: rgb(119, 224, 248);
+  background-color: transparent;
+  border-style: solid;
+  border-color: rgb(119, 224, 248);
+  border-width: 2px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#horos {
+  padding: 0 0 8px 0;
+  text-align: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(49,168,221,0.2), rgba(0,0,0,0.2), rgba(49,168,221,0.2)), url("../images/campo-de-estrelas-de-alta-definicao-espaco-colorido-do-ceu-noturno-nebulosa-e-galaxias-no-espaco-fundo-do-conceito-de-astronomia_232070-8070.avif");
+}
+[id|="img"] {
+  height: 200px;
+  text-align: center;
+  border-color: #fff;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#img-zod {
+  background-image: linear-gradient(rgba(0, 0, 0,.6), rgba(0,0,0,0.5), rgba(49,168,221,0.1)), url("../images/pngwing.com.png");
+}
+#img-chi {
+  background-image: linear-gradient(rgba(0, 0, 0,.6), rgba(0,0,0,0.5), rgba(49,168,221,0.1)), url("../images/kisspng-maya-civilization-mayan-calendar-ancient-maya-art-5ae6b6ea5ac483.7068838415250695463718.png");
+}
+#img-may {
+  background-image: linear-gradient(rgba(0, 0, 0,.6), rgba(0,0,0,0.5), rgba(49,168,221,0.1)), url("../images/eaf5175ec08ee772acd942d7d0ab423e.jpg");
+}
+#img-sha {
+  background-image: linear-gradient(rgba(0, 0, 0,.4), rgba(0,0,0,0.2), rgba(49,168,221,0.1)), url("../images/—Pngtree—outline compass circle shamanic infinity_13119130.png");
+}
+#img-gyp {
+  background-image: linear-gradient(rgba(0, 0, 0,.6), rgba(0,0,0,0.5), rgba(49,168,221,0.1)), url("../images/mandalasignosciganos.png");
+}
+
+p {
+  width: 50%;
+  min-width: 150px;
+  margin: 5px auto;
+  padding: 2px 15px;
+  color: #fff;
+  text-align: center;
+  font-size: large;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 2px #000;
+}
+span {
+  padding: 0px 10px;
+  width: 50%;
+  min-width: 150px;
+  color: transparent;
+  background: -webkit-linear-gradient(rgb(119, 224, 248), rgb(242, 25, 253));
+  -webkit-background-clip: text;
+  text-shadow: 2px 2px 15px #fff;
+}
+#horos h2 + div{
+  margin: 0 auto;
+  padding: 0 10px 5px 10px;
+  width: 95%;
+  max-width: 600px;
+  text-align: center;
+  background-color: rgba(0, 0, 0,.2);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(119, 224, 248,.2);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  -ms-flex-align: center;
+}
+#ohros div div {
+  margin: 0 auto;
+  width: 50%;
+}
+#img-container {
+  width: 100px;
+  height: auto;
+}
+#img-container img {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}

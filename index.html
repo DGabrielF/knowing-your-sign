@@ -4,47 +4,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Seu Signo</title>
+  <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
-  <h1>horóscopo</h1>
-  <div>
-    <div>
+  <header>
+    <h1>horóscopo</h1>
+  </header>
+  <div class="input-base">
+    <div class="input-area">
       <h2>data de nascimento</h2>
-      <input id="day" type="text" placeholder="01" value="1">
-      <input id="month" type="text" placeholder="01" value="1">
-      <input id="year" type="text" placeholder="2000" value="2000">
+      <div>
+        <input id="day" type="text" placeholder="01" value="1">
+        <input id="month" type="text" placeholder="01" value="1">
+        <input id="year" type="text" placeholder="2000" value="2000">
+      </div>
+      <button onclick="main()">Encontrar signos</button>
     </div>
-    <button onclick="main()">Encontrar signos</button>
   </div>
-  <div>
+  <div id="horos">
     <h2>zodíaco</h2>
-    <p>signo: <span id="zod-sign"></span></p>
-    <p>polarização: <span id="zod-polar"></span></p>
-    <p>elemento: <span id="zod-eleme"></span></p>
-    <p>flexibilidade<span id="zod-flexi"></span></p>
+    <div id="img-zod">
+      <p>signo: <span id="zod-sign"></span></p>
+      <p>polarização: <span id="zod-polar"></span></p>
+      <p>elemento: <span id="zod-eleme"></span></p>
+      <p>flexibilidade: <span id="zod-flexi"></span></p> 
+    </div>
   </div>
-  <div>
+  <div id="horos">
     <h2>chinês</h2>
-    <p>signo: <span id="chi-sign"></span></p>
-    <p>polarização: <span id="chi-polar"></span></p>
-    <p>elemento: <span id="chi-eleme"></span></p>
+    <div id="img-chi">
+      <p>signo: <span id="chi-sign"></span></p>
+      <p>polarização: <span id="chi-polar"></span></p>
+      <p>elemento: <span id="chi-eleme"></span></p>
+    </div>
   </div>
-  <div>
+  <div id="horos">
     <h2>maia</h2>
-    <p>Signo: <span id="may-sign"></span></p>
+    <div id="img-may">
+      <p>Signo: <span id="may-sign"></span></p>
+    </div>
   </div>
-  <div>
+  <div id="horos">
     <h2>xamã</h2>
-    <p>Signo: <span id="sha-sign"></span></p>
+    <div id="img-sha">
+      <p>Signo: <span id="sha-sign"></span></p>
+    </div>
   </div>
-  <div>
+  <div id="horos">
     <h2>cigano</h2>
-    <p>signo: <span id="gyp-sign"></span></p>
-    <p>perfume: <span id="gyp-frag"></span></p>
-    <p>metal: <span id="gyp-metal"></span></p>
-    <p>dia da Semana: <span id="gyp-day"></span></p>
-    <p>pedra: <span id="gyp-stone"></span></p>
-    <p>cor: <span id="gyp-color"></span></p>
+    <div id="img-gyp">
+      <p>signo: <span id="gyp-sign"></span></p>
+      <p>perfume: <span id="gyp-frag"></span></p>
+      <p>metal: <span id="gyp-metal"></span></p>
+      <p>dia da Semana: <span id="gyp-day"></span></p>
+      <p>pedra: <span id="gyp-stone"></span></p>
+      <p>cor: <span id="gyp-color"></span></p>
+    </div>
   </div>
 </body>
 <script src="./main.js"></script>
